@@ -23,5 +23,11 @@ python NED-RSA.py pub-key.pem
   - MF4CAQACEAoYMzK1hT9UwaGx5lNz5+ECAwEAAQIQAcOQzr+hdRuMpL+cI5Nj8QII
   - NC11+H47ZL8CCDGG6qEhrrtfAggYBorYtj9g/wIIMGmPZJ6GLMUCCCKZfizk8eJR
   - -----END RSA PRIVATE KEY-----
+  
+#Compute Times on i7:
+  - 10 Min (128)
+  - 1 Hr (256)
+  - 4 hr (512)
+  - 16 hr (1024)
 
 
