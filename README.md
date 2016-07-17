@@ -4,3 +4,5 @@ Setup: pip install gmpy primefac crypto
 
 To run:
   python NED-RSA.py pub-key.pen
+
+[NED](/17ipst.jpg)
