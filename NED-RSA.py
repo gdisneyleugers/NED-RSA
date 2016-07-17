@@ -23,6 +23,7 @@ try:
 	print spacer
 	d = long(gmpy.invert(e,(int(p)-1)*(int(q)-1)))
 	print "D: {0}".format(d)
+	print spacer
 	key = RSA.construct((n,e,d))
 	print key.exportKey()
 except IndexError:
