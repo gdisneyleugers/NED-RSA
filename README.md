@@ -1,5 +1,5 @@
 # NED-RSA
-RSA NED Reconstruction Attack can attack any key from 128-1024. Private key reconstruction attack against RSA Public key. Certian N values are better than others, these N values will cause not optimal D values to be calculated. Thus arent vulnerable, this seems to be only 1 of 3 will have this strong N value. This was found using openssl 1.0.2a-FIPS.
+RSA NED Reconstruction Attack can attack any key from 128-1024. Private key reconstruction attack against RSA Public key. Certian N values are better than others, these N values will cause not optimal D values to be calculated. Thus arent vulnerable, this seems to be only 1 of 3 will have this strong N value. This was found using openssl 1.0.2g-FIPS.
 
 #Setup: 
 pip install gmpy primefac crypto
