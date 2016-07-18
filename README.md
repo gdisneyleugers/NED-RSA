@@ -3,6 +3,7 @@ RSA NED Reconstruction Attack (Private key regenration attack) can attack any ke
 ![alt-text](https://github.com/gdisneyleugers/NED-RSA/blob/master/17ipst.jpg "Oakley Doakley")
 #Setup: 
     pip install -r requirement.txt
+    pip install pycrypto primefac gmpy
 
 #To run:
     python NED-RSA.py pub-key.pem
