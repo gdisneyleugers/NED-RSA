@@ -1,5 +1,5 @@
 # NED-RSA
-RSA NED Reconstruction Attack (Private key regenration attack) can attack any key from 128-1024. Private key reconstruction attack against RSA Public key. Certian N values are better than others, these stronger N values will cause not optimal D values to be calculated. Thus arent vulnerable, this seems to be only 1 of 3 will have this strong N value. The keys generated from not optimal D values will generate a vulnerable key just not the proper private key. This was found using openssl 1.0.2g-FIPS. 
+RSA NED Reconstruction Attack (Private key regeneration attack) can attack any key from 128-1024. Private key reconstruction attack against RSA Public key. Certian N values are better than others, these stronger N values will cause not optimal D values to be calculated. Thus arent vulnerable, this seems to be only 1 of 3 will have this strong N value. The keys generated from not optimal D values will generate a vulnerable key just not the proper private key. This was found using openssl 1.0.2g-FIPS. 
 ![alt-text](https://github.com/gdisneyleugers/NED-RSA/blob/master/17ipst.jpg "Oakley Doakley")
 #Setup: 
     pip install -r requirement.txt
