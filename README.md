@@ -5,7 +5,7 @@ RSA NED Reconstruction Attack (Private key regenration attack) can attack any ke
     pip install -r requirement.txt
 
 #To run:
-  python NED-RSA.py pub-key.pem
+    python NED-RSA.py pub-key.pem
 
 #Output:
   ----------------------------------------------------------------
